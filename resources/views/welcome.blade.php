@@ -21,9 +21,9 @@
         <nav class="flex-row" id="nav">
             <a href="{{ url('/home') }}" class="poppins">HOME</a>
             <a href="{{ url('/adopt') }}" class="poppins">ADOPT</a>
-            <a href="{{ url('/') }}" class="poppins">SHOP</a>
-            <a href="{{ url('/') }}" class="poppins">ARTICLE</a>
-            <a href="{{ url('/') }}" class="poppins">CONTACT</a>
+            <a href="{{ url('/shop') }}" class="poppins">SHOP</a>
+            <a href="{{ url('/getarticle') }}" class="poppins">ARTICLE</a>
+            <a href="#footer" class="poppins">CONTACT</a>
         </nav>
         <div class="flex-row" id="box-login">
             <a href="{{ url('/login') }}" class="poppins pasive">Sign In</a>
